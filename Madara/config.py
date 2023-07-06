@@ -36,9 +36,9 @@ class Config(object):
     MONGO_DB = "Madara"  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
     ARQ_API_URL = "arq.hamker.dev"  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
     ARQ_API_KEY = "YZXQNZ-TPCRLZ-HKWWKY-SPPYAL-ARQ"
-    DONATION_LINK = "t.me/O_oKarma"
-    HELP_IMG = "https://telegra.ph/file/e6f09f69413c28779dadb.jpg"
-    START_VIDEO = "https://telegra.ph/file/a9f580274ce215e7ad5d5.mp4"
+    DONATION_LINK = "t.me/SexyNano"
+    HELP_IMG = "https://graph.org/file/9b8b09ce1d5d48f8004f3.jpg"
+    START_VIDEO = "https://graph.org/file/2904688233933fd7e64fc.mp4"
     UPDATES_CHANNEL = ""
     INFOPIC = False
     GENIUS_API_TOKEN = (
@@ -62,7 +62,7 @@ class Config(object):
     ALLOW_EXCL = []
     ALLOW_CHATS = True
     CERT_PATH = []
-    SPAMWATCH_SUPPORT_CHAT = "hydraXsupport"
+    SPAMWATCH_SUPPORT_CHAT = "Anime_Krew"
     BOT_API_URL = "https://api.telegram.org/bot"  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
     DRAGONS = get_user_list("elevated_users.json", "sudos")  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
     DEV_USERS = get_user_list("elevated_users.json", "devs")  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
