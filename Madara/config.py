@@ -17,7 +17,7 @@ class Config(object):
     # ᴀᴅᴅ ʏᴏᴜʀ ᴠᴇʀs  (ᴍᴀɪɴ ᴠᴇʀs)
     API_ID = int(getenv("API_ID", "16743442"))
     API_HASH = getenv("API_HASH", "12bbd720f4097ba7713c5e40a11dfd2a")
-    EVENT_LOGS = int(getenv("EVENT_LOGS", "-1001922732593"))
+    EVENT_LOGS = int(getenv("EVENT_LOGS", "MadaraUchihaBotLog"))
     DATABASE_URL = getenv(
         "DATABASE_URL",
         "postgres://brmhwhgf:Eq_ZuGoNei_j50ST1iGf7WMymc6IO9vf@hattie.db.elephantsql.com/brmhwhgf",
