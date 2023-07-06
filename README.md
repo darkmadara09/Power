@@ -1,6 +1,6 @@
 # Madara Uchiha Group Management Bot
 
-![Madara Uchiha](https://graph.org/file/875f7cb814130c1fd7ca1.jpg){: style="width: 300px; height: 200px;"}
+![Madara Uchiha](https://graph.org/file/875f7cb814130c1fd7ca1.jpg) 
 
 <video width="640" height="360" controls>
     <source src="https://graph.org/file/2904688233933fd7e64fc.mp4" type="video/mp4">
