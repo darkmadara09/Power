@@ -1,2 +1,2 @@
-#web: python3 -m Hydra
-worker: python3 -m Hydra
+#web: python3 -m Madara
+worker: python3 -m Madara
