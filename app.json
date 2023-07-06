@@ -1,8 +1,8 @@
 {
     "name": "Madara Uchiha",
     "description": "Telegram Group Management Bot Written In Python Using python-telegram-bot.",
-    "repository": "https://github.com/Infamous-Hydra/MikoBot",
-    "logo": "https://te.legra.ph/file/b0e09aabe796209f01d3d.jpg",
+    "repository": "https://github.com/PyroUserBot/MadaraUchiha",
+    "logo": "https://graph.org/file/6468a53d4774b0b677ddb.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -73,17 +73,17 @@
       },
       "OWNER_USERNAME": {
          "description": "Your Telegram username without the @",
-         "value": "Abishnoi1M"
+         "value": "SexyNano"
       },
       "SUPPORT_CHAT": {
          "description": "The Telegram Support Group Where Users of your Bot can Go and ask their Questions.",
          "required": true,
-         "value": "AbishnoiMF"
+         "value": "JHBots"
       },
       "UPDATES_CHANNEL": {
          "description": "The Telegram News/Update Channel Where Users of your Bot can Go and check updates by you.",
          "required": true,
-         "value": "Abishnoi_bots"
+         "value": "JujutsuHighNetwork"
       },     
       "EVENT_LOGS": {
          "description": "Event logs CHANNEL to note down important bot level events, recommend to make this public. ex: '-123456'",
@@ -98,12 +98,12 @@
       "START_IMG": {
          "description": "A Start img link",
          "required": false,
-         "value": "https://telegra.ph/file/0191f2041ae33e11c1267.jpg"
+         "value": "https://graph.org/file/6468a53d4774b0b677ddb.jpg"
       },
       "DEV_USERS": {
          "description": "Enter the IDs of the users who are the Developers of the Bot. If you are newbie and want help from us Itself, then keep the IDs as they are and add yours",
          "required": false,
-         "value": "1452219013"
+         "value": "6198858059"
       },
       "SPAMWATCH_API": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
