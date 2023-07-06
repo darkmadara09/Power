@@ -147,7 +147,7 @@ if ENV:
     SPAMWATCH_API = os.environ.get(
         "SPAMWATCH_API", None
     )  # From https://t.me/SpamWatchBot
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "")  # Bot Username
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "MadaraUchiha_xBot")  # Bot Username
     # Telethon Based String Session (2nd ID) [ From https://repl.it/@SpEcHiDe/GenerateStringSession ]
     API_ID = os.environ.get("API_ID", None)  # 2nd ID
     API_HASH = os.environ.get("API_HASH", None)  # 2nd ID
