@@ -8,7 +8,7 @@ from telegram import __version__ as lver
 from telethon import __version__ as tver
 
 from Madara import BOT_NAME, pgram
-from Karma.helper import PHOTO
+from Uchiha.helper import PHOTO
 
 ASAU = [
     [
