@@ -43,7 +43,7 @@ def languages(update: Update, context: CallbackContext) -> None:
     message = update.effective_message
     bot = context.bot
     bot.send_message(
-        text="ᴄʟɪᴄᴋ [ʜᴇʀᴇ](https://telegra.ph/ɪᴛs-ᴍᴇ-𒆜-Aʙɪsʜɴᴏɪ-07-30-2) ᴛᴏ sᴇᴇ ᴛʜᴇ ʟɪsᴛ ᴏғ sᴜᴘᴘᴏʀᴛᴇᴅ ʟᴀɴɢᴜᴀɢᴇ ᴄᴏᴅᴇs!",
+        text="ᴄʟɪᴄᴋ [ʜᴇʀᴇ](https://graph.org/MadaraUchiha-xBot-07-06) ᴛᴏ sᴇᴇ ᴛʜᴇ ʟɪsᴛ ᴏғ sᴜᴘᴘᴏʀᴛᴇᴅ ʟᴀɴɢᴜᴀɢᴇ ᴄᴏᴅᴇs!",
         chat_id=message.chat.id,
         disable_web_page_preview=True,
         parse_mode=ParseMode.MARKDOWN,
