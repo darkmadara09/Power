@@ -15,21 +15,21 @@ def get_user_list(config, key):
 class Config(object):
     LOGGER = True
     # ᴀᴅᴅ ʏᴏᴜʀ ᴠᴇʀs  (ᴍᴀɪɴ ᴠᴇʀs)
-    API_ID = int(getenv("API_ID", ""))
-    API_HASH = getenv("API_HASH", "")
-    EVENT_LOGS = int(getenv("EVENT_LOGS", ""))
+    API_ID = int(getenv("API_ID", "16743442"))
+    API_HASH = getenv("API_HASH", "12bbd720f4097ba7713c5e40a11dfd2a")
+    EVENT_LOGS = int(getenv("EVENT_LOGS", "-1001922732593"))
     DATABASE_URL = getenv(
         "DATABASE_URL",
-        "",
+        "postgres://brmhwhgf:Eq_ZuGoNei_j50ST1iGf7WMymc6IO9vf@hattie.db.elephantsql.com/brmhwhgf",
     )  # elephantsql.com
-    REDIS_URL = "redis://default:2JRsEUf6GtBToZlztbVZ@containers-us-west-133.railway.app:6301"  # redis.os
+    REDIS_URL = "redis://Steven-free-db:OHFgx57GfTTfXQg7CUnbiEdHZz5Y9Y3S@redis-11820.c252.ap-southeast-1-1.ec2.cloud.redislabs.com:11820"  # redis.os
     MONGO_DB_URL = getenv(
         "MONGO_DB_URL",
-        "mongodb://mongo:n7icTVVNyQFW5YuBrczM@containers-us-west-45.railway.app:6559",
+        "mongodb+srv://sonu55:sonu55@cluster0.vqztrvk.mongodb.net/?retryWrites=true&w=majority",
     )
-    TOKEN = getenv("TOKEN", "")
-    OWNER_USERNAME = getenv("OWNER_USERNAME", "O_oKarma")
-    OWNER_ID = int(getenv("OWNER_ID", "5978107653"))
+    TOKEN = getenv("TOKEN", "6330964987:AAHMh8b6wPqVIKKsOQxMjqfYsbFmE6bKDVE")
+    OWNER_USERNAME = getenv("OWNER_USERNAME", "SexyNano")
+    OWNER_ID = int(getenv("OWNER_ID", "6198858059"))
     SUPPORT_CHAT = getenv("SUPPORT_CHAT", "")
 
     # ɴᴏᴛ ɪᴍᴘᴏʀᴛᴀɴᴛ ᴢᴏɴᴇ, ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴇᴅɪᴛ
