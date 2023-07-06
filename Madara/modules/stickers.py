@@ -22,7 +22,7 @@ from Madara import dispatcher
 from Madara import telethn as bot
 from Madara.events import register as asau
 from Madara.modules.disable import DisableAbleCommandHandler
-from Karma.covert import convert_gif
+from Uchiha.covert import convert_gif
 
 combot_stickers_url = "https://combot.org/telegram/stickers?q="
 
