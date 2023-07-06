@@ -30,7 +30,7 @@ class Config(object):
     TOKEN = getenv("TOKEN", "6330964987:AAHMh8b6wPqVIKKsOQxMjqfYsbFmE6bKDVE")
     OWNER_USERNAME = getenv("OWNER_USERNAME", "SexyNano")
     OWNER_ID = int(getenv("OWNER_ID", "6198858059"))
-    SUPPORT_CHAT = getenv("SUPPORT_CHAT", "")
+    SUPPORT_CHAT = getenv("SUPPORT_CHAT", "-1001453145062")
 
     # ɴᴏᴛ ɪᴍᴘᴏʀᴛᴀɴᴛ ᴢᴏɴᴇ, ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴇᴅɪᴛ
     MONGO_DB = "Madara"  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
