@@ -127,7 +127,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-✨ 𝙈𝙖𝙙𝙖𝙧𝙖✨[ㅤ](https://telegra.ph/file/e6f09f69413c28779dadb.jpg)
+✨ 𝙈𝙖𝙙𝙖𝙧𝙖✨[ㅤ](https://graph.org/file/9b8b09ce1d5d48f8004f3.jpg)
 ━━━━━━━━━━━━━━━━━      
 ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ
 ɢᴇᴛ ᴜꜱᴀɢᴇ ᴏꜰ ꜱᴘᴇᴄɪꜰɪᴄꜱ ᴄᴏᴍᴍᴀɴᴅ
