@@ -1,5 +1,5 @@
 {
-    "name": "Yae Miko",
+    "name": "Madara Uchiha",
     "description": "Telegram Group Management Bot Written In Python Using python-telegram-bot.",
     "repository": "https://github.com/Infamous-Hydra/MikoBot",
     "logo": "https://te.legra.ph/file/b0e09aabe796209f01d3d.jpg",
@@ -146,7 +146,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://t.me/Abishnoi1M"
+         "value": "https://t.me/SexyNano"
       },
       "MONGO_DB_URL": {
          "description": "Your Mongo DB URI",
