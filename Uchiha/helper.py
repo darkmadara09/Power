@@ -3,7 +3,7 @@ HELP_IMG = [
     "https://telegra.ph/file/7fdf67c75568d15169e51.jpg"
 ]
 
-START_VIDEO = ["https://telegra.ph/file/a9f580274ce215e7ad5d5.mp4"]
+START_VIDEO = ["https://graph.org/file/2904688233933fd7e64fc.mp4"]
 
 
 PHOTO = [
