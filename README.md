@@ -1,6 +1,6 @@
 # Madara Uchiha Group Management Bot
 
-![Madara Uchiha](https://github.com/PyroUserBot/MadaraUchiha/raw/main/madara.jpg)
+![Madara Uchiha](image_url){: style="width: 300px; height: 200px;"}
 
 Welcome to the Madara Uchiha Group Management Bot repository! This bot is designed to provide a wide range of features and functionalities for managing groups on Telegram, all with an anime theme based on the character Madara Uchiha.
 
