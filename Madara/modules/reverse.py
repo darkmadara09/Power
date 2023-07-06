@@ -30,7 +30,7 @@ def reverse(update: Update, context: CallbackContext):
                 f"[{result['data']['resultText']}]({result['data']['similarUrl']})",
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton("ᴀɴɪᴍᴇ 🐾", url="https://t.me/Animez_96")]]
+                    [[InlineKeyboardButton("ᴀɴɪᴍᴇ 🐾", url="https://t.me/Anime_Campus")]]
                 ),
             )
         else:
@@ -55,7 +55,7 @@ def reverse(update: Update, context: CallbackContext):
                 f"[{result['data']['resultText']}]({result['data']['similarUrl']})",
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton("ᴀɴɪᴍᴇ 🐾", url="https://t.me/Animez_96")]]
+                    [[InlineKeyboardButton("ᴀɴɪᴍᴇ 🐾", url="https://t.me/Anime_Campus")]]
                 ),
             )
         else:
