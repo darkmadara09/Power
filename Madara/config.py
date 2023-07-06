@@ -30,7 +30,7 @@ class Config(object):
     TOKEN = getenv("TOKEN", "6330964987:AAHMh8b6wPqVIKKsOQxMjqfYsbFmE6bKDVE")
     OWNER_USERNAME = getenv("OWNER_USERNAME", "SexyNano")
     OWNER_ID = int(getenv("OWNER_ID", "6198858059"))
-    SUPPORT_CHAT = getenv("SUPPORT_CHAT", "-1001453145062")
+    SUPPORT_CHAT = getenv("SUPPORT_CHAT", "JHBots")
 
     # ɴᴏᴛ ɪᴍᴘᴏʀᴛᴀɴᴛ ᴢᴏɴᴇ, ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴇᴅɪᴛ
     MONGO_DB = "Madara"  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
@@ -39,7 +39,7 @@ class Config(object):
     DONATION_LINK = "t.me/SexyNano"
     HELP_IMG = "https://graph.org/file/9b8b09ce1d5d48f8004f3.jpg"
     START_VIDEO = "https://graph.org/file/2904688233933fd7e64fc.mp4"
-    UPDATES_CHANNEL = ""
+    UPDATES_CHANNEL = "JujutsuHighNetwork"
     INFOPIC = False
     GENIUS_API_TOKEN = (
         "gIgMyTXuwJoY9VCPNwKdb_RUOA_9mCMmRlbrrdODmNvcpslww_2RIbbWOB8YdBW9"
