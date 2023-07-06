@@ -25,7 +25,7 @@ class Config(object):
     REDIS_URL = "redis://Steven-free-db:OHFgx57GfTTfXQg7CUnbiEdHZz5Y9Y3S@redis-11820.c252.ap-southeast-1-1.ec2.cloud.redislabs.com:11820"  # redis.os
     MONGO_DB_URL = getenv(
         "MONGO_DB_URL",
-        "mongodb+srv://sonu55:sonu55@cluster0.vqztrvk.mongodb.net/?retryWrites=true&w=majority",
+        "mongodb+srv://vortex:yNNrzMsR0BAiI4iY@cluster0.8sizo.mongodb.net/?retryWrites=true&w=majority",
     )
     TOKEN = getenv("TOKEN", "6330964987:AAHMh8b6wPqVIKKsOQxMjqfYsbFmE6bKDVE")
     OWNER_USERNAME = getenv("OWNER_USERNAME", "SexyNano")
