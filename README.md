@@ -38,7 +38,7 @@ This bot is an open-source project developed by fans and is not officially affil
 
 <a href="https://t.me/MadaraUchiha_xBot">
   <div style="position: relative; display: inline-block;">
-    <img src="image_url" alt="Telegram Image" width="200px">
+    <img src="https://te.legra.ph/file/010697905d57f0fe3af38.jpg" alt="Telegram Image" width="200px">
     <div style="position: absolute; bottom: 0; left: 0; background-color: rgba(0, 0, 0, 0.7); color: white; padding: 5px;">
       Madara Uchiha
     </div>
