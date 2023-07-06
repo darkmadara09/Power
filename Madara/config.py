@@ -22,7 +22,7 @@ class Config(object):
         "DATABASE_URL",
         "postgres://brmhwhgf:Eq_ZuGoNei_j50ST1iGf7WMymc6IO9vf@hattie.db.elephantsql.com/brmhwhgf",
     )  # elephantsql.com
-    REDIS_URL = "redis://Steven-free-db:OHFgx57GfTTfXQg7CUnbiEdHZz5Y9Y3S@redis-11820.c252.ap-southeast-1-1.ec2.cloud.redislabs.com:11820"  # redis.os
+    REDIS_URL = "redis://default:neko69@redis-18084.c289.us-west-1-2.ec2.cloud.redislabs.com:18084/Neko-Free-db"  # redis.os
     MONGO_DB_URL = getenv(
         "MONGO_DB_URL",
         "mongodb+srv://vortex:yNNrzMsR0BAiI4iY@cluster0.8sizo.mongodb.net/?retryWrites=true&w=majority",
