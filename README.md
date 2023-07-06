@@ -33,3 +33,14 @@ This project is licensed under the [MIT License](https://github.com/PyroUserBot/
 ## Disclaimer
 
 This bot is an open-source project developed by fans and is not officially affiliated with or endorsed by the creators of the Madara Uchiha character or any anime/manga series.
+
+## Clone
+
+<a href="https://t.me/MadaraUchiha_xBot">
+  <div style="position: relative; display: inline-block;">
+    <img src="image_url" alt="Telegram Image" width="200px">
+    <div style="position: absolute; bottom: 0; left: 0; background-color: rgba(0, 0, 0, 0.7); color: white; padding: 5px;">
+      Madara Uchiha
+    </div>
+  </div>
+</a>
