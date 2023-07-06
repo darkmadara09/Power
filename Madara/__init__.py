@@ -366,6 +366,9 @@ from pymongo import MongoClient
 
 from Madara import MONGO_DB_URL
 
+mongo = MongoClient(MONGO_DB_URL)
+db = mongo.Madara
+
 try:
     client = MongoClient(MONGO_DB_URL)
 except PyMongoError:
