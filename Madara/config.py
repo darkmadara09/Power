@@ -27,7 +27,7 @@ class Config(object):
         "MONGO_DB_URL",
         "mongodb+srv://vortex:yNNrzMsR0BAiI4iY@cluster0.8sizo.mongodb.net/?retryWrites=true&w=majority",
     )
-    TOKEN = getenv("TOKEN", "6330964987:AAHMh8b6wPqVIKKsOQxMjqfYsbFmE6bKDVE")
+    TOKEN = getenv("TOKEN", "6330964987:AAGGGM2iz-2hTmZLkiigTQgTCHMPePRC6AY")
     OWNER_USERNAME = getenv("OWNER_USERNAME", "SexyNano")
     OWNER_ID = int(getenv("OWNER_ID", "6198858059"))
     SUPPORT_CHAT = getenv("SUPPORT_CHAT", "JHBots")
