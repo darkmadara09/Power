@@ -30,7 +30,6 @@ from Madara import (
     LOGGER,
     OWNER_ID,
     PORT,
-    START_VIDEO,
     SUPPORT_CHAT,
     TOKEN,
     URL,
