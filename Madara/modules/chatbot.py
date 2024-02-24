@@ -146,7 +146,7 @@ __help__ = f"""
  »  /chatbot *:* sʜᴏᴡs ᴄʜᴀᴛʙᴏᴛ ᴄᴏɴᴛʀᴏʟ ᴘᴀɴᴇʟ.
 """
 
-__mod_name__ = "𝙲ʜᴀᴛʙᴏᴛ"
+__mod_name__ = "𝗖𝗛𝗔𝗧𝗕𝗢𝗧"
 
 
 CHATBOTK_HANDLER = CommandHandler("chatbot", Madarachatbot)
