@@ -335,7 +335,7 @@ Tʜɪs ᴡɪʟʟ ᴍᴜᴛᴇ ᴜsᴇʀs ɪғ ᴛʜᴇʏ sᴇɴᴅ ᴍᴏʀᴇ �
  
  """
 
-__mod_name__ = "𝙰ɴᴛɪ-ғʟᴏᴏᴅ"
+__mod_name__ = "𝗔𝗡𝗧𝗜-𝗙𝗟𝗢𝗢𝗗"
 
 FLOOD_BAN_HANDLER = MessageHandler(
     Filters.all & ~Filters.status_update & Filters.chat_type.groups,
