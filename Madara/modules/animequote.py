@@ -161,4 +161,4 @@ __command_list__ = ["animequotes", "quote"]
 
 __handlers__ = [ANIMEQUOTES_HANDLER, QUOTES_HANDLER]
 
-__mod_name__ = "Animequotes"
+__mod_name__ = "𝗔𝗡𝗜𝗠𝗘𝗤𝗨𝗢𝗧𝗘𝗦"
