@@ -135,7 +135,7 @@ For example: /bing cats
  ➛ /bard - Chat with me. Usage: /bard who are you
 """
 
-__mod_name__ = "ᗩI ᑕᕼᗩT"   
+__mod_name__ = "𝗔𝗜 𝗖𝗛𝗔𝗧"   
 __command_list__ = [
     "chat",
     "bing",
