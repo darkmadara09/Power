@@ -416,7 +416,7 @@ def __stats__():
     return f"⍟ {sql.num_blacklist_filters()} ʙʟᴀᴄᴋʟɪsᴛ ᴛʀɪɢɢᴇʀs, ᴀᴄʀᴏss {sql.num_blacklist_filter_chats()} ᴄʜᴀᴛs."
 
 
-__mod_name__ = "𝙱ʟᴀᴄᴋʟɪsᴛs"
+__mod_name__ = "𝗕𝗟𝗔𝗖𝗞𝗟𝗜𝗦𝗧𝗦"
 
 __help__ = """
 
