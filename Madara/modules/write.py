@@ -25,7 +25,7 @@ async def writer(m: events.NewMessage):
     await var.delete()
 
 
-__mod_name__ = "𝚆ʀɪᴛᴇ"
+__mod_name__ = "𝗪𝗥𝗜𝗧𝗘"
 
 __help__ = """
 
