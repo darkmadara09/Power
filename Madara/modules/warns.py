@@ -524,7 +524,7 @@ __help__ = (
     ""
 )
 
-__mod_name__ = "𝚆ᴀʀɴs"
+__mod_name__ = "𝗪𝗔𝗥𝗡𝗦"
 
 WARN_HANDLER = CommandHandler(
     ["warn", "dwarn"], warn_user, filters=Filters.chat_type.groups, run_async=True
