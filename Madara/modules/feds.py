@@ -2347,7 +2347,7 @@ def fed_user_help(update: Update, context: CallbackContext):
     )
 
 
-__mod_name__ = "𝙵ᴇᴅs"
+__mod_name__ = "𝗙𝗘𝗗𝗦"
 
 __help__ = """
 *ғᴇᴅᴇʀᴀᴛɪᴏɴ*
