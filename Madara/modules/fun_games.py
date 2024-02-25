@@ -4,7 +4,7 @@ from telegram.ext import CallbackContext
 from Madara import dispatcher
 from Madara.modules.disable import DisableAbleCommandHandler
 
-__mod_name__ = "𝙵ᴜɴ ɢᴀᴍᴇs"
+__mod_name__ = "𝗙𝗨𝗡 𝗚𝗔𝗠𝗘𝗦"
 __help__ = """
 ᴜsᴇ ᴛʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs ᴀɴᴅ ᴛʀʏ ᴛᴏ sᴄᴏʀᴇ.\n\n
  ❍ `/dice` - ᴅɪᴄᴇ 🎲\n
