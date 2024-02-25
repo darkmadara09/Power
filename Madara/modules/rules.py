@@ -120,7 +120,7 @@ dispatcher.add_handler(GET_RULES_HANDLER)
 dispatcher.add_handler(SET_RULES_HANDLER)
 dispatcher.add_handler(RESET_RULES_HANDLER)
 
-__mod_name__ = "𝚁ᴜʟᴇs"
+__mod_name__ = "𝗥𝗨𝗟𝗘𝗦"
 
 __help__ = """
 **ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴛʜᴇ ʀᴜʟᴇs ᴍᴏᴅᴜʟᴇ :**
