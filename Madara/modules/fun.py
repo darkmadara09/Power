@@ -207,7 +207,7 @@ dispatcher.add_handler(DECIDE_HANDLER)
 dispatcher.add_handler(COSPLAY_HANDLER)
 dispatcher.add_handler(FLIRT_HANDLER)
 
-__mod_name__ = "𝙵ᴜɴ"
+__mod_name__ = "𝗙𝗨𝗡"
 __command_list__ = [
     "roll",
     "toss",
