@@ -106,7 +106,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="🎵𝗠𝗨𝗦𝗜𝗖🎵", callback_data=f"settings_back_helper"),
-        InlineKeyboardButton(text="⚡𝗦𝗨𝗣𝗣𝗢𝗥𝗧⚡", url=f"https://t.me/Anime_Krew"),
+        InlineKeyboardButton(text="⚡𝗦𝗨𝗣𝗣𝗢𝗥𝗧⚡", url=f"https://t.me/IxSupport"),
     ],
     [
         InlineKeyboardButton(text="👾𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦👾", callback_data="help_back"),
