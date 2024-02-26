@@ -383,6 +383,6 @@ ECHO_HANDLER = DisableAbleCommandHandler(
 
 dispatcher.add_handler(ECHO_HANDLER)
 
-__mod_name__ = "𝙴xᴛʀᴀs"
+__mod_name__ = "𝗘𝗫𝗧𝗥𝗔𝗦"
 __command_list__ = ["gifid", "echo"]
 __handlers__ = [ECHO_HANDLER]
