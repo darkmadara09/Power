@@ -80,7 +80,7 @@ START_MSG = "* I ᴀᴍ ɢʜᴏsᴛ ᴏғ ᴛʜᴇ ᴜᴄʜɪʜᴀ, ᴍᴀᴅᴀ
 
 
 PM_START_TEX = """
-ʜᴇʏ `{}` . . . 
+ʜᴇʏ `{}` . . .[ ](https://telegra.ph/file/23411fe671a09c0147daa.jpg)
 """
 
 PM_START_TEXT = """
