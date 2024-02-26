@@ -99,24 +99,17 @@ GROUP_START_TEXT = """
 """
 
 buttons = [
+        [
+        InlineKeyboardButton(
+            text="➕ 𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 ➕", url=f"t.me/{bu}?startgroup=true"
+        )
+    ],
     [
-        InlineKeyboardButton(text="𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥", url=f"https://t.me/Bad_Boy_Og"),
+        InlineKeyboardButton(text="🎵𝗠𝗨𝗦𝗜𝗖🎵", callback_data=f"settings_back_helper"),
+        InlineKeyboardButton(text="⚡𝗦𝗨𝗣𝗣𝗢𝗥𝗧⚡", url=f"https://t.me/Anime_Krew"),
     ],
     [
         InlineKeyboardButton(text="👾𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦👾", callback_data="help_back"),
-        InlineKeyboardButton(
-            text="⚡𝗦𝗨𝗣𝗣𝗢𝗥𝗧⚡", url=f"https://t.me/IxSupport"
-        ),
-    ],
-    [
-        InlineKeyboardButton(text="🎶𝗠𝗨𝗦𝗜𝗖🎶", url=f"https://t.me/Nobara_Music_Bot?start=new"),
-        InlineKeyboardButton(text="𝗔𝗕𝗢𝗨𝗧", callback_data="Madara_"),
-    ],
-    [
-        InlineKeyboardButton(
-            text="➕ 𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 ➕",
-            url=f"t.me/{BOT_USERNAME}?startgroup=true",
-        )
     ],
 ]
 
