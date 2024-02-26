@@ -210,7 +210,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="𝘽𝘼𝘾𝙆", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="𝗕𝗔𝗖𝗞", callback_data="help_back")]]
                     ),
                 )
 
@@ -256,11 +256,11 @@ def start(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="🚑 𝙎𝙐𝙋𝙋𝙊𝙍𝙏",
-                            url=f"https://t.me/Anime_Krew",
+                            url=f"https://t.me/ixsupport",
                         ),
                         InlineKeyboardButton(
                             text="📗 𝙐𝙋𝘿𝘼𝙏𝙀𝙎",
-                            url=f"https://t.me/JujutsuHighNetwork",
+                            url=f"https://t.me/ix_updates",
                         ),
                     ],
                     [
@@ -356,7 +356,7 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="𝘽𝘼𝘾𝙆", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="𝗕𝗔𝗖𝗞", callback_data="help_back")]]
                 ),
             )
 
@@ -409,7 +409,7 @@ def Madara_callback_data(update, context):
                 [
                     [
                         InlineKeyboardButton(text="〈", callback_data="Madara_prev"),
-                        InlineKeyboardButton(text="𝘽𝘼𝘾𝙆", callback_data="Madara_back"),
+                        InlineKeyboardButton(text="𝗕𝗔𝗖𝗞", callback_data="Madara_back"),
                         InlineKeyboardButton(text="〉", callback_data="Madara_next"),
                     ]
                 ]
@@ -488,7 +488,7 @@ def get_help(update, context):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="𝘽𝘼𝘾𝙆", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="𝗕𝗔𝗖𝗞", callback_data="help_back")]]
             ),
         )
 
@@ -562,7 +562,7 @@ def settings_button(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="𝘽𝘼𝘾𝙆",
+                                text="𝗕𝗔𝗖𝗞",
                                 callback_data=f"stngs_back({chat_id})",
                             )
                         ]
