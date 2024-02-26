@@ -244,8 +244,8 @@ def start(update: Update, context: CallbackContext):
                 disable_web_page_preview=False,
             )
     else:
-        update.effective_message.reply_video(
-            START_VIDEO,
+        update.effective_message.reply_image(
+            START_IMG,
             caption="ʜᴇʏ `{}`,\n\nɪ ᴀᴍ ᴀʟɪᴠᴇ !\n➥ᴜᴘᴛɪᴍᴇ: `{}` ".format(
                 usr.first_name,
                 uptime,
