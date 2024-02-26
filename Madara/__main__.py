@@ -101,7 +101,7 @@ GROUP_START_TEXT = """
 buttons = [
         [
         InlineKeyboardButton(
-            text="➕ 𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 ➕", url=f"t.me/{bu}?startgroup=true"
+            text="➕ 𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 ➕", url=f"t.me/{BOT_USERNAME}?startgroup=true"
         )
     ],
     [
