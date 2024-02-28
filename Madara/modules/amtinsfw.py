@@ -4,7 +4,7 @@ from pyrogram import filters
 from Madara import DRAGONS, arq, pgram
 from Madara.utils.errors import capture_err
 from Madara.utils.permissions import adminsOnly
-from Madara.modules.mongo.nsfw_mongo import is_nsfw_on, nsfw_off, nsfw_on
+from Madara.database.mongodb.nsfw_mongo import is_nsfw_on, nsfw_off, nsfw_on
 
 
 async def get_file_id_from_message(message):
