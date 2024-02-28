@@ -3,7 +3,7 @@ from os import remove
 
 from pyrogram import filters
 
-from Database.mongodb.toggle_mongo import is_nsfw_on, nsfw_off, nsfw_on
+from Madara.database.mongodb.toggle_mongo import is_nsfw_on, nsfw_off, nsfw_on
 from Madara import BOT_USERNAME, DRAGONS, pgram
 from Madara.state import arq
 from Madara.utils.can_restrict import can_restrict
