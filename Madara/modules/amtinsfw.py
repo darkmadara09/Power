@@ -1,7 +1,7 @@
 from os import remove
 from pyrogram import filters
 
-from Madara import SUDO_USERS, arq, pgram
+from Madara import DRAGONS, arq, pgram
 from Madara.utils.errors import capture_err
 from Madara.utils.permissions import adminsOnly
 from Madara.modules.mongo.nsfw_mongo import is_nsfw_on, nsfw_off, nsfw_on
