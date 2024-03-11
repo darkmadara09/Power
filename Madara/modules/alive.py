@@ -13,10 +13,10 @@ from Uchiha.helper import PHOTO
 ASAU = [
     [
         InlineKeyboardButton(
-            text="📗 𝙐𝙋𝘿𝘼𝙏𝙀𝙎", url=f"https://t.me/JujutsuHighNetwork"
+            text="𝗨𝗣𝗗𝗔𝗧𝗘𝗦", url=f"https://t.me/Ix_updates"
         ),
         InlineKeyboardButton(
-            text="🚑 𝙎𝙐𝙋𝙋𝙊𝙍𝙏", url=f"https://t.me/Anime_Krew"
+            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url=f"https://t.me/ixsupport"
         ),
     ],
 ]
@@ -29,12 +29,12 @@ async def awake(_, message: Message):
         caption=f"""**ʜᴇʏ, ɪ ᴀᴍ {BOT_NAME}**
     ➖➖➖➖➖➖➖➖➖➖➖➖
           ➖➖➖➖➖➖➖
-👑 **𝐌𝐘 𝐎𝐖𝐍𝐄𝐑 :** [𝙽 𝙰 𝙽 𝙰 𝙼 𝙸](https://t.me/The_NanamiiKento)
-🧑‍💻 **𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑 :** [Ɲᴀɴᴏ | ❄](https://t.me/SexyNano)
-» **𝐋𝐈𝐁𝐑𝐀𝐑𝐘 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 :** `{lver}`
-» **𝐓𝐄𝐋𝐄𝐓𝐇𝐎𝐍 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 :** `{tver}`
-» **𝐏𝐘𝐑𝐎𝐆𝐑𝐀𝐌 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 :** `{pver}`
-» **𝐏𝐘𝐓𝐇𝐎𝐍 𝐕𝐄𝐑𝐒𝐈𝐎𝐍 :** `{version_info[0]}.{version_info[1]}.{version_info[2]}`
+**𝗠𝗬 𝗢𝗪𝗡𝗘𝗥 :** [𝖠𝖪𝖠𝖹𝖠](https://t.me/Bad_Boy_Og)
+**𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 :** [𝖹𝖤𝖭𝖨𝖳𝖲𝖴](https://t.me/Zenitsu_shadow)
+» **𝗟𝗜𝗕𝗥𝗔𝗥𝗬 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 :** `{lver}`
+» **𝗧𝗘𝗟𝗘𝗧𝗛𝗢𝗡 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 :** `{tver}`
+» **𝗣𝗬𝗥𝗢𝗚𝗥𝗔𝗠 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 :** `{pver}`
+» **𝗣𝗬𝗧𝗛𝗢𝗡 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 :** `{version_info[0]}.{version_info[1]}.{version_info[2]}`
 """,
         reply_markup=InlineKeyboardMarkup(ASAU),
     )
