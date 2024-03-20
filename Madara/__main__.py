@@ -397,11 +397,12 @@ def help_button(update, context):
         pass
 
 
-def Madara_about_callback(update: Update, context: CallbackContext):
+def Madara_callback_data(update, context):
     query = update.callback_query
+    uptime = get_readable_time((time.time() - StartTime))
     if query.data == "Madara_":
-        uptime = get_readable_time((time.time() - StartTime))
-        query.message.edit_caption(f"*ʜᴇʏ,*💞\n  *ᴛʜɪs ɪs {dispatcher.bot.first_name}*"
+        query.message.edit_text(
+            text="""f"*ʜᴇʏ,*💞\n  *ᴛʜɪs ɪs {dispatcher.bot.first_name}*,
             "\n*ᴛʜᴇsᴇ ᴀʀᴇ ᴛʜᴇ ᴀᴠᴀɪʟᴀʙʟᴇ  ᴄᴏᴍᴍᴀɴᴅs:*"
             "\n\n⦿ /play ➠ ᴘʟᴀʏs ᴀ sᴏɴɢ ᴏɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ."
             "\n\n⦿ /vplay  ➠ ᴘʟᴀʏs ᴀ sᴏɴɢ ᴏɴ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ."
@@ -410,14 +411,19 @@ def Madara_about_callback(update: Update, context: CallbackContext):
             "\n⦿ /skip ➠ sᴋɪᴘs ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ sᴏɴɢ."
             "\n⦿ /video ➠ ᴅᴏᴡɴʟᴏᴀᴅ ғᴏʀ ᴀ ᴠɪᴅᴇᴏ."                        
             "\n⦿ /song ➠ ᴅᴏᴡɴʟᴏᴀᴅ ғᴏʀ ᴀ sᴏɴɢ.",
+            """
             parse_mode=ParseMode.MARKDOWN,
-            
+            disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
-                     InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="alone_back"),
-                ],
-            )
-         )
+                    [
+                        InlineKeyboardButton(text="〈", callback_data="Madara_prev"),
+                        InlineKeyboardButton(text="𝘽𝘼𝘾𝙆", callback_data="Madara_back"),
+                        InlineKeyboardButton(text="〉", callback_data="Madara_next"),
+                    ]
+                ]
+            ),
+        )
     elif query.data == "Madara_back":
         first_name = update.effective_user.first_name
         uptime = get_readable_time((time.time() - StartTime))
