@@ -414,29 +414,9 @@ def Madara_about_callback(update: Update, context: CallbackContext):
             
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [
-                        InlineKeyboardButton(
-                            text="", callback_data=""
-                        ),
-                        InlineKeyboardButton(
-                            text="", callback_data="help_back"
-                        ),
-                    ],
-                    [
-                        InlineKeyboardButton(
-                            text="", url=f"tg://user?id={OWNER_ID}"
-                        ),
-                        InlineKeyboardButton(
-                            text="",
-                            callback_data="source_",
-                        ),
-                    ],
-                    [
-                        InlineKeyboardButton(text="𝗕𝗔𝗖𝗞", callback_data="Madara_back"),
-                    ],
-                ]
-            ),
-        )
+                     InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="alone_back"),
+                ],
+            )
     elif query.data == "Madara_back":
         first_name = update.effective_user.first_name
         uptime = get_readable_time((time.time() - StartTime))
