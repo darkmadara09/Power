@@ -402,15 +402,15 @@ def Madara_about_callback(update, context):
     uptime = get_readable_time((time.time() - StartTime))
     if query.data == "Madara_":
         query.message.edit_text(
-            text="""f"*ʜᴇʏ,*💞\n *ᴛʜɪs ɪs {dispatcher.bot.first_name}*"
-            "\n*ᴛʜᴇsᴇ ᴀʀᴇ ᴛʜᴇ ᴀᴠᴀɪʟᴀʙʟᴇ  ᴄᴏᴍᴍᴀɴᴅs:*"
-            "\n\n⦿ /play ➠ ᴘʟᴀʏs ᴀ sᴏɴɢ ᴏɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ."
-            "\n\n⦿ /vplay  ➠ ᴘʟᴀʏs ᴀ sᴏɴɢ ᴏɴ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ."
-            "\n⦿ /stop ➠ sᴛᴏᴘs ᴛʜᴇ ᴄᴜʀʀᴇɴᴛʟʏ ᴘʟᴀʏɪɴɢ sᴏɴɢ."
-            "\n⦿ /end ➠ ᴇɴᴅs ᴛʜᴇ ᴍᴜsɪᴄ ᴘʟᴀʏʙᴀᴄᴋ."
-            "\n⦿ /skip ➠ sᴋɪᴘs ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ sᴏɴɢ."
-            "\n⦿ /video ➠ ᴅᴏᴡɴʟᴏᴀᴅ ғᴏʀ ᴀ ᴠɪᴅᴇᴏ."                        
-            "\n⦿ /song ➠ ᴅᴏᴡɴʟᴏᴀᴅ ғᴏʀ ᴀ sᴏɴɢ.",
+            text="""*ʜᴇʏ,*💞\n *ᴛʜɪs ɪs {dispatcher.bot.first_name}*
+            \n*ᴛʜᴇsᴇ ᴀʀᴇ ᴛʜᴇ ᴀᴠᴀɪʟᴀʙʟᴇ  ᴄᴏᴍᴍᴀɴᴅs:*
+            \n\n⦿ /play ➠ ᴘʟᴀʏs ᴀ sᴏɴɢ ᴏɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ.
+            \n\n⦿ /vplay  ➠ ᴘʟᴀʏs ᴀ sᴏɴɢ ᴏɴ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ.
+            \n⦿ /stop ➠ sᴛᴏᴘs ᴛʜᴇ ᴄᴜʀʀᴇɴᴛʟʏ ᴘʟᴀʏɪɴɢ sᴏɴɢ.
+            \n⦿ /end ➠ ᴇɴᴅs ᴛʜᴇ ᴍᴜsɪᴄ ᴘʟᴀʏʙᴀᴄᴋ.
+            \n⦿ /skip ➠ sᴋɪᴘs ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ sᴏɴɢ.
+            \n⦿ /video ➠ ᴅᴏᴡɴʟᴏᴀᴅ ғᴏʀ ᴀ ᴠɪᴅᴇᴏ.                       
+            \n⦿ /song ➠ ᴅᴏᴡɴʟᴏᴀᴅ ғᴏʀ ᴀ sᴏɴɢ.,
             """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -418,7 +418,7 @@ def Madara_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(text="", callback_data="Madara_prev"),
-                        InlineKeyboardButton(text="", callback_data="Madara_back"),
+                        InlineKeyboardButton(text="𝗕𝗔𝗖𝗞", callback_data="Madara_back"),
                         InlineKeyboardButton(text="", callback_data="Madara_next"),
                     ]
                 ]
