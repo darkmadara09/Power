@@ -84,7 +84,7 @@ PM_START_TEX = """
 """
 
 PM_START_TEXT = """
-**──────「ᴘᴏᴡᴇʀ」──────**[ㅤ](https://telegra.ph/file/043c7a2c7a3b950bf5cc7.mp4)
+**──────「Sʜɪᴋɪᴍᴏʀɪ」──────**[ㅤ](https://telegra.ph/file/5c625325e595a96629d47.mp4)
 **▸ ɪ ᴀᴍ ᴀ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.
 ▸ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs ᴡʜɪᴄʜ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs ᴇᴀsɪʟʏ !
 ▸ ᴄʟɪᴄᴋ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴏʀ sᴇɴᴅ /help ᴛᴏ ᴄʜᴇᴄᴋ ᴀʟʟ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs.**
@@ -105,7 +105,7 @@ buttons = [
         )
     ],
     [
-        InlineKeyboardButton(text="🎵𝗠𝗨𝗦𝗜𝗖🎵", callback_data=f"settings_back_helper"),
+        InlineKeyboardButton(text="🎵𝗠𝗨𝗦𝗜𝗖🎵", callback_data="Madara_"),
         InlineKeyboardButton(text="⚡𝗦𝗨𝗣𝗣𝗢𝗥𝗧⚡", url=f"https://t.me/IxSupport"),
     ],
     [
@@ -115,7 +115,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-ᴄᴏᴍᴍᴀɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ:[ ](https://telegra.ph/file/23411fe671a09c0147daa.jpg) 
+ᴄᴏᴍᴍᴀɴᴅs ᴀᴠᴀɪʟᴀʙʟᴇ:[ ](https://telegra.ph/file/c0752776e006b04e8e3f3.jpg) 
 ▸ /help: PM's ʏᴏᴜ ᴛʜɪs ᴍᴇssᴀɢᴇ.
 ▸ /donate: ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴏɴ ʜᴏᴡ ᴛᴏ ᴅᴏɴᴀᴛᴇ!
 ▸ /settings:
@@ -397,21 +397,43 @@ def help_button(update, context):
         pass
 
 
-def Madara_callback_data(update, context):
+def Madara_callback_data(update: Update, context: CallbackContext):
     query = update.callback_query
-    uptime = get_readable_time((time.time() - StartTime))
     if query.data == "Madara_":
-        query.message.edit_text(
-            text="""CallBackQueriesData Here""",
+        uptime = get_readable_time((time.time() - StartTime))
+        query.message.edit_caption(f"*ʜᴇʏ,*💞\n  *ᴛʜɪs ɪs {dispatcher.bot.first_name}*"
+            "\n*ᴛʜᴇsᴇ ᴀʀᴇ ᴛʜᴇ ᴀᴠᴀɪʟᴀʙʟᴇ  ᴄᴏᴍᴍᴀɴᴅs:*"
+            "\n\n⦿ /play ➠ ᴘʟᴀʏs ᴀ sᴏɴɢ ᴏɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ."
+            "\n\n⦿ /vplay  ➠ ᴘʟᴀʏs ᴀ sᴏɴɢ ᴏɴ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ."
+            "\n⦿ /stop ➠ sᴛᴏᴘs ᴛʜᴇ ᴄᴜʀʀᴇɴᴛʟʏ ᴘʟᴀʏɪɴɢ sᴏɴɢ."
+            "\n⦿ /end ➠ ᴇɴᴅs ᴛʜᴇ ᴍᴜsɪᴄ ᴘʟᴀʏʙᴀᴄᴋ."
+            "\n⦿ /skip ➠ sᴋɪᴘs ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ sᴏɴɢ."
+            "\n⦿ /video ➠ ᴅᴏᴡɴʟᴏᴀᴅ ғᴏʀ ᴀ ᴠɪᴅᴇᴏ."                        
+            "\n⦿ /song ➠ ᴅᴏᴡɴʟᴏᴀᴅ ғᴏʀ ᴀ sᴏɴɢ.",
             parse_mode=ParseMode.MARKDOWN,
-            disable_web_page_preview=True,
+            
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="〈", callback_data="Madara_prev"),
+                        InlineKeyboardButton(
+                            text="", callback_data="alone_support"
+                        ),
+                        InlineKeyboardButton(
+                            text="", callback_data="Main_help"
+                        ),
+                    ],
+                    [
+                        InlineKeyboardButton(
+                            text="", url=f"tg://user?id={OWNER_ID}"
+                        ),
+                        InlineKeyboardButton(
+                            text="",
+                            callback_data="source_",
+                        ),
+                    ],
+                    [
                         InlineKeyboardButton(text="𝗕𝗔𝗖𝗞", callback_data="Madara_back"),
-                        InlineKeyboardButton(text="〉", callback_data="Madara_next"),
-                    ]
+                    ],
                 ]
             ),
         )
