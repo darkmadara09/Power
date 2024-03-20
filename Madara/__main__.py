@@ -761,7 +761,7 @@ def main():
     )
 
     about_callback_handler = CallbackQueryHandler(
-    Alone_about_callback, pattern=r"Madara_", run_async=True
+    Madara_about_callback, pattern=r"Madara_", run_async=True
     )
     donate_handler = DisableAbleCommandHandler("donate", donate, run_async=True)
     migrate_handler = MessageHandler(
