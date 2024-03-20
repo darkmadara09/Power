@@ -402,7 +402,7 @@ def Madara_callback_data(update, context):
     uptime = get_readable_time((time.time() - StartTime))
     if query.data == "Madara_":
         query.message.edit_text(
-            text="""f"*ʜᴇʏ,*💞\n  *ᴛʜɪs ɪs {dispatcher.bot.first_name}*,
+            text="""f"*ʜᴇʏ,*💞\n  *ᴛʜɪs ɪs {dispatcher.bot.first_name}*"
             "\n*ᴛʜᴇsᴇ ᴀʀᴇ ᴛʜᴇ ᴀᴠᴀɪʟᴀʙʟᴇ  ᴄᴏᴍᴍᴀɴᴅs:*"
             "\n\n⦿ /play ➠ ᴘʟᴀʏs ᴀ sᴏɴɢ ᴏɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ."
             "\n\n⦿ /vplay  ➠ ᴘʟᴀʏs ᴀ sᴏɴɢ ᴏɴ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ."
@@ -417,9 +417,9 @@ def Madara_callback_data(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="〈", callback_data="Madara_prev"),
-                        InlineKeyboardButton(text="𝘽𝘼𝘾𝙆", callback_data="Madara_back"),
-                        InlineKeyboardButton(text="〉", callback_data="Madara_next"),
+                        InlineKeyboardButton(text="", callback_data="Madara_prev"),
+                        InlineKeyboardButton(text="", callback_data="Madara_back"),
+                        InlineKeyboardButton(text="", callback_data="Madara_next"),
                     ]
                 ]
             ),
