@@ -417,6 +417,7 @@ def Madara_about_callback(update: Update, context: CallbackContext):
                      InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="alone_back"),
                 ],
             )
+         )
     elif query.data == "Madara_back":
         first_name = update.effective_user.first_name
         uptime = get_readable_time((time.time() - StartTime))
