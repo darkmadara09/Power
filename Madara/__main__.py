@@ -397,7 +397,7 @@ def help_button(update, context):
         pass
 
 
-def Madara_callback_data(update: Update, context: CallbackContext):
+def Madara_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "Madara_":
         uptime = get_readable_time((time.time() - StartTime))
@@ -416,10 +416,10 @@ def Madara_callback_data(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="", callback_data="alone_support"
+                            text="", callback_data=""
                         ),
                         InlineKeyboardButton(
-                            text="", callback_data="Main_help"
+                            text="", callback_data="help_back"
                         ),
                     ],
                     [
@@ -760,8 +760,8 @@ def main():
         settings_button, pattern=r"stngs_", run_async=True
     )
 
-    data_callback_handler = CallbackQueryHandler(
-        Madara_callback_data, pattern=r"Madara_", run_async=True
+    about_callback_handler = CallbackQueryHandler(
+    Alone_about_callback, pattern=r"Madara_", run_async=True
     )
     donate_handler = DisableAbleCommandHandler("donate", donate, run_async=True)
     migrate_handler = MessageHandler(
@@ -771,7 +771,7 @@ def main():
     # dispatcher.add_handler(test_handler)
     dispatcher.add_handler(start_handler)
     dispatcher.add_handler(help_handler)
-    dispatcher.add_handler(data_callback_handler)
+    dispatcher.add_handler(about_callback_handler)
     dispatcher.add_handler(settings_handler)
     dispatcher.add_handler(help_callback_handler)
     dispatcher.add_handler(settings_callback_handler)
