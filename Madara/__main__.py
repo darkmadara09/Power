@@ -402,7 +402,7 @@ def Madara_callback_data(update, context):
     uptime = get_readable_time((time.time() - StartTime))
     if query.data == "Madara_":
         query.message.edit_text(
-            text="""f"*ʜᴇʏ,*💞\n  *ᴛʜɪs ɪs {dispatcher.bot.first_name}*"
+            text="""f"*ʜᴇʏ , 💞 ɪ ᴀᴍ ғᴀsᴛᴇsᴛ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴀɴᴅ ᴍᴜsɪᴄ ʙᴏᴛ.*"
             "\n*ᴛʜᴇsᴇ ᴀʀᴇ ᴛʜᴇ ᴀᴠᴀɪʟᴀʙʟᴇ  ᴄᴏᴍᴍᴀɴᴅs:*"
             "\n\n⦿ /play ➠ ᴘʟᴀʏs ᴀ sᴏɴɢ ᴏɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ."
             "\n\n⦿ /vplay  ➠ ᴘʟᴀʏs ᴀ sᴏɴɢ ᴏɴ ᴠɪᴅᴇᴏ ᴄʜᴀᴛ."
