@@ -397,7 +397,7 @@ def help_button(update, context):
         pass
 
 
-def Madara_callback_data(update, context):
+def Madara_about_callback(update, context):
     query = update.callback_query
     uptime = get_readable_time((time.time() - StartTime))
     if query.data == "Madara_":
