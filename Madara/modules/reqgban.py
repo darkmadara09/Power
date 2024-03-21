@@ -126,7 +126,7 @@ async def close_send_photo(_, CallbackQuery):
         await CallbackQuery.message.delete()
 
 __help__ = """
-» /reqgban : ʏᴏᴜ ᴄᴀɴ ʀᴇǫᴜᴇsᴛ ᴜs ᴛᴏ ɢʙᴀɴ.
+⍟ /reqgban : ʏᴏᴜ ᴄᴀɴ ʀᴇǫᴜᴇsᴛ ᴜs ᴛᴏ ɢʙᴀɴ.
 """
 
 __mod_name__ = "𝗥𝗘𝗤𝗚𝗕𝗔𝗡"
