@@ -714,13 +714,13 @@ def main():
         try:
             dispatcher.bot.sendAnimation(
                 f"@{SUPPORT_CHAT}",
-                animation="https://telegra.ph/file/043c7a2c7a3b950bf5cc7.mp4",
+                animation="https://telegra.ph/file/5c625325e595a96629d47.mp4",
                 caption=f"""
 ✨ {dispatcher.bot.first_name} ɪs ᴀʟɪᴠᴇ .....
     ➖➖➖➖➖➖➖➖➖➖➖➖
           ➖➖➖➖➖➖➖
- **𝗠𝗬 𝗢𝗪𝗡𝗘𝗥 :** [𝖠𝖪𝖠𝖹𝖠](https://t.me/bad_boy_og)
- **𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 :** [𝖹𝖤𝖭𝖨𝖳𝖲𝖴](https://t.me/Zenitsu_shadow)
+ **𝗠𝗬 𝗢𝗪𝗡𝗘𝗥 :** [𝖢𝖮𝖭𝖢](https://t.me/Conc_chemical)
+ **𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 :** [𝖢𝖧𝖤𝖬𝖨𝖢𝖠𝖫](https://t.me/Conc_chemical)
 ⍟ **𝗟𝗜𝗕𝗥𝗔𝗥𝗬 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 :** `{lver}`
 ⍟ **𝗧𝗘𝗟𝗘𝗧𝗛𝗢𝗡 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 :** `{tver}`
 ⍟ **𝗣𝗬𝗥𝗢𝗚𝗥𝗔𝗠 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 :** `{pver}`
