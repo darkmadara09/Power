@@ -13,10 +13,10 @@ from Uchiha.helper import PHOTO
 ASAU = [
     [
         InlineKeyboardButton(
-            text="𝗨𝗣𝗗𝗔𝗧𝗘𝗦", url=f"https://t.me/Ix_updates"
+            text="𝗨𝗣𝗗𝗔𝗧𝗘𝗦", url=f"https://t.me/Muichiro_Updates"
         ),
         InlineKeyboardButton(
-            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url=f"https://t.me/ixsupport"
+            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url=f"https://t.me/Muichiro_support"
         ),
     ],
 ]
@@ -29,8 +29,8 @@ async def awake(_, message: Message):
         caption=f"""**ʜᴇʏ, ɪ ᴀᴍ {BOT_NAME}**
     ➖➖➖➖➖➖➖➖➖➖➖➖
           ➖➖➖➖➖➖➖
-**𝗠𝗬 𝗢𝗪𝗡𝗘𝗥 :** [𝖠𝖪𝖠𝖹𝖠](https://t.me/Bad_Boy_Og)
-**𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 :** [𝖹𝖤𝖭𝖨𝖳𝖲𝖴](https://t.me/Zenitsu_shadow)
+**𝗠𝗬 𝗢𝗪𝗡𝗘𝗥 :** [𝖢𝖮𝖭𝖢](https://t.me/Conc_chemical)
+**𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 :** [𝖢𝖧𝖤𝖬𝖨𝖢𝖠𝖫](https://t.me/Conc_chemical)
 » **𝗟𝗜𝗕𝗥𝗔𝗥𝗬 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 :** `{lver}`
 » **𝗧𝗘𝗟𝗘𝗧𝗛𝗢𝗡 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 :** `{tver}`
 » **𝗣𝗬𝗥𝗢𝗚𝗥𝗔𝗠 𝗩𝗘𝗥𝗦𝗜𝗢𝗡 :** `{pver}`
