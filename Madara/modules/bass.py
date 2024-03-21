@@ -46,5 +46,5 @@ def apply_bass_boost(audio_path):
 
 __mod_name__ = "𝗕𝗔𝗦𝗦"
 __help__ = """
- » /bass : ʀᴇᴘʟʏ ᴛᴏ ᴀᴜᴅɪᴏ ғɪʟᴇ ᴛᴏ ɪɴᴄʀᴇᴀsᴇ ɪᴛs ʙᴀss.
+ ⍟ /bass : ʀᴇᴘʟʏ ᴛᴏ ᴀᴜᴅɪᴏ ғɪʟᴇ ᴛᴏ ɪɴᴄʀᴇᴀsᴇ ɪᴛs ʙᴀss.
  """
