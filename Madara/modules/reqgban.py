@@ -113,7 +113,7 @@ async def reqgban(_, msg: Message):
 async def close_reply(msg, CallbackQuery):
     await CallbackQuery.message.delete()
 
-@app.on_callback_query(filters.regex("close_send_photo"))
+@pgram.on_callback_query(filters.regex("close_send_photo"))
 async def close_send_photo(_, CallbackQuery):
     is_Admin = await Client.get_chat_member(
         CallbackQuery.message.chat.id, CallbackQuery.from_user.id
