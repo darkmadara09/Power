@@ -1,16 +1,16 @@
 HELP_IMG = [
-    "https://graph.org/file/9b8b09ce1d5d48f8004f3.jpg"
-    "https://graph.org/file/60e01e9303094d231be1f.jpg"
+    "https://telegra.ph/file/7c156fe8318ec075679e5.jpg"
+    "https://telegra.ph/file/25c634bda23424b583ded.jpg"
 ]
 
 START_VIDEO = ["https://graph.org/file/2904688233933fd7e64fc.mp4"]
 
 
 PHOTO = [
-    "https://graph.org/file/9b8b09ce1d5d48f8004f3.jpg",
-    "https://graph.org/file/60e01e9303094d231be1f.jpg",
-    "https://graph.org/file/875f7cb814130c1fd7ca1.jpg"
-    "https://graph.org/file/5c113ab1fd9690eaf16c8.jpg",
-    "https://graph.org/file/6468a53d4774b0b677ddb.jpg",
-    "https://graph.org/file/9b8b09ce1d5d48f8004f3.jpg",
+    "https://telegra.ph/file/0ea13d19a6fc3cad65d5e.jpg",
+    "https://telegra.ph/file/a38ed2d14404641fa0425.jpg",
+    "https://telegra.ph/file/694e9ca3f9bd57274fb19.jpg"
+    "https://telegra.ph/file/a502c6ec7026ab6fc165a.jpg",
+    "https://telegra.ph/file/46af316c4a4828e292a66.jpg",
+    "https://telegra.ph/file/909e96a9c53b62b71536e.jpg",
 ]
