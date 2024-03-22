@@ -65,3 +65,4 @@ ujson==5.7.0
 uvloop==0.17.0
 wget==3.2
 pydub
+pyfiglet
