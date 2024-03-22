@@ -4,8 +4,6 @@ from Madara import pgram
 import Madara
 from Madara import *
 
-app = pbot
-
 @pgram.on_message(filters.command("reel"))
 async def download_instagram_reel(client, message):
     try:
