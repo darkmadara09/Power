@@ -347,7 +347,9 @@ def help_button(update, context):
         if mod_match:
             module = mod_match[1]
             text = (
-                f"「 *{HELPABLE[module].__mod_name__}* module: 」\n"
+                "[ ](https://graph.org/file/3ac88ad0f9241a34959d9.jpg)ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʜᴇʟᴘ ꜰᴏʀ ᴛʜᴇ *{}* ᴍᴏᴅᴜʟᴇ:\n".format(
+                    HELPABLE[module].__mod_name__
+                )
                 + HELPABLE[module].__help__
             )
 
