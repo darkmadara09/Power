@@ -287,7 +287,7 @@ stats_str = """
 @sudo_plus
 def stats(update, context):
     update.effective_message.reply_photo(
-        "https://telegra.ph/file/ed11f2fbb7fde9a3c9999.jpg",
+        "https://telegra.ph/file/aecb4b2ca5648f259b00a.jpg",
     )
     uptime = datetime.datetime.fromtimestamp(boot_time()).strftime("%Y-%m-%d %H:%M:%S")
     botuptime = get_readable_time((time.time() - StartTime))
@@ -304,8 +304,8 @@ def stats(update, context):
             status
             + "\n*ʙᴏᴛ sᴛᴀᴛɪsᴛɪᴄs*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
-            + "\n\n[𝗨𝗣𝗗𝗔𝗧𝗘𝗦](https://t.me/Ixsupport) | [𝗦𝗨𝗣𝗣𝗢𝗥𝗧](https://t.me/IXSUPPORT)\n\n"
-            + f"「 𝗠𝗔𝗗𝗘 𝗕𝗬 [𝖨𝖷 𝖲𝖴𝖯𝖯𝖮𝖱𝖳](t.me/{AKBOSS}) 」\n",
+            + "\n\n[𝗨𝗣𝗗𝗔𝗧𝗘𝗦](https://t.me/Muichiro_Updates) | [𝗦𝗨𝗣𝗣𝗢𝗥𝗧](https://t.me/Muichiro_support)\n\n"
+            + f"「 𝗠𝗔𝗗𝗘 𝗕𝗬 [𝖮𝖶𝖭𝖤𝖱](t.me/{AKBOSS}) 」\n",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
         )
@@ -317,9 +317,9 @@ def stats(update, context):
                         "\n*ʙᴏᴛ sᴛᴀᴛɪsᴛɪᴄs*:\n"
                         + "\n".join(mod.__stats__() for mod in STATS)
                     )
-                    + "\n\n⍙ [𝗨𝗣𝗗𝗔𝗧𝗘𝗦](https://t.me/Ixsupport) | [𝗦𝗨𝗣𝗣𝗢𝗥𝗧](https://t.me/IXSUPPORT)\n\n"
+                    + "\n\n⍙ [𝗨𝗣𝗗𝗔𝗧𝗘𝗦](https://t.me/Muichiro_Updates) | [𝗦𝗨𝗣𝗣𝗢𝗥𝗧](https://t.me/Muichiro_support)\n\n"
                 )
-                + f"「 𝗠𝗔𝗗𝗘 𝗕𝗬 [𝖨𝖷 𝖲𝖴𝖯𝖯𝖮𝖱𝖳](t.me/{AKBOSS}) 」\n"
+                + f"「 𝗠𝗔𝗗𝗘 𝗕𝗬 [𝖮𝖶𝖭𝖤𝖱](t.me/{AKBOSS}) 」\n"
             ),
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
