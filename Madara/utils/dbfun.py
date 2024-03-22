@@ -2,10 +2,10 @@ from typing import Dict, Union
 
 from pymongo import MongoClient
 
-from Madara import MONGO_DB_URI
+from Madara import MONGO_DB_URL
 
 client = MongoClient()
-client = MongoClient(MONGO_DB_URI)
+client = MongoClient(MONGO_DB_URL)
 db = client["Madara"]
 
 coupledb = db.couple
