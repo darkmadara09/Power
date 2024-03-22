@@ -1,4 +1,4 @@
-from Madara.utils.pluginhelper import is_admin
+from Madara.utils.pluginhelpers import is_admin
 import os
 import csv
 from pyrogram import Client, filters
