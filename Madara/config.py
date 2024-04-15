@@ -64,14 +64,13 @@ class Config(object):
     CERT_PATH = []
     SPAMWATCH_SUPPORT_CHAT = "Friends_Zone_l"
     BOT_API_URL = "https://api.telegram.org/bot"  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
-    DRAGONS = get_user_list("elevated_users.json", "sudos")  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
-    DEV_USERS = get_user_list("elevated_users.json", "devs")  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
-    REQUESTER = get_user_list("elevated_users.json", "whitelists")  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
-    DEMONS = get_user_list("elevated_users.json", "supports")  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
-    INSPECTOR = get_user_list("elevated_users.json", "sudos")  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
-    TIGERS = get_user_list("elevated_users.json", "tigers")  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
-    WOLVES = get_user_list("elevated_users.json", "whitelists")  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
-
+    DRAGONS = [6529892817]  # User id of sudo users
+    DEV_USERS = [6529892817]  # User id of dev users
+    REQUESTER = [6529892817]  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
+    DEMONS = [6613832704]  # User id of support users
+    INSPECTOR = [6529892817]  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
+    TIGERS = [6529892817]  # User id of tiger users
+    WOLVES = [6529892817]  # User id of whitelist users
 
 class Production(Config):
     LOGGER = True
