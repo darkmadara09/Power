@@ -28,8 +28,8 @@ class Config(object):
         "mongodb+srv://Obito:Obito@obito.uolt8k3.mongodb.net/?retryWrites=true&w=majority",
     )
     TOKEN = getenv("TOKEN", "6494077922:AAEeBBCclIvvhxw9zz_E1cxP96esJzbKZDk")
-    OWNER_USERNAME = getenv("OWNER_USERNAME", "King_Akaza_Shadow")
-    OWNER_ID = int(getenv("OWNER_ID", "7122227582"))
+    OWNER_USERNAME = getenv("OWNER_USERNAME", "obito_shadow")
+    OWNER_ID = int(getenv("OWNER_ID", "6529892817"))
     SUPPORT_CHAT = getenv("SUPPORT_CHAT", "Friends_Zone_l")
 
     # ɴᴏᴛ ɪᴍᴘᴏʀᴛᴀɴᴛ ᴢᴏɴᴇ, ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴇᴅɪᴛ
