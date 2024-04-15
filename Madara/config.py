@@ -67,7 +67,7 @@ class Config(object):
     DRAGONS = [6529892817]  # User id of sudo users
     DEV_USERS = [6529892817]  # User id of dev users
     REQUESTER = [6529892817]  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
-    DEMONS = [6613832704]  # User id of support users
+    DEMONS = [6529892817]  # User id of support users
     INSPECTOR = [6529892817]  # ⚠️ ᴅᴏɴ'ᴛ ᴇᴅɪᴛ
     TIGERS = [6529892817]  # User id of tiger users
     WOLVES = [6529892817]  # User id of whitelist users
