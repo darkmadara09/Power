@@ -20,9 +20,9 @@ class Config(object):
     EVENT_LOGS = int(getenv("EVENT_LOGS", "-1002139608040"))
     DATABASE_URL = getenv(
         "DATABASE_URL",
-        "postgres://pjwfzthq:eGF0tslmouCIz1S-FtDs1WGFW0DrIOi8@arjuna.db.elephantsql.com/pjwfzthq",
+        "postgres://dwhesbut:l0W9zw6yDi38CuwbOrI3ztJJ3FdjEnAH@flora.db.elephantsql.com/dwhesbut",
     )  # elephantsql.com
-    REDIS_URL = "redis://default:neko69@redis-18084.c289.us-west-1-2.ec2.cloud.redislabs.com:18084/Neko-Free-db"  # redis.os
+    REDIS_URL = "redis://default:FyNzPZ045GV2JXidIlYVYWExT5d2PDfz@redis-19786.c279.us-central1-1.gce.cloud.redislabs.com:19786"  # redis.os
     MONGO_DB_URL = getenv(
         "MONGO_DB_URL",
         "mongodb+srv://Obito:Obito@obito.uolt8k3.mongodb.net/?retryWrites=true&w=majority",
