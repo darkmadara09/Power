@@ -27,7 +27,7 @@ class Config(object):
         "MONGO_DB_URL",
         "mongodb+srv://Avon:Avon@avon.fstai.mongodb.net/?retryWrites=true&w=majority",
     )
-    TOKEN = getenv("TOKEN", "6494077922:AAEeBBCclIvvhxw9zz_E1cxP96esJzbKZDk")
+    TOKEN = getenv("TOKEN", "7667702659:AAHPIU2yQEMrbOu696qO93VaKcg92h6j5DM")
     OWNER_USERNAME = getenv("OWNER_USERNAME", "Yash_747")
     OWNER_ID = int(getenv("OWNER_ID", "6289029511"))
     SUPPORT_CHAT = getenv("SUPPORT_CHAT", "Friends_Zone_l")
