@@ -15,9 +15,9 @@ def get_user_list(config, key):
 class Config(object):
     LOGGER = True
     # ᴀᴅᴅ ʏᴏᴜʀ ᴠᴇʀs  (ᴍᴀɪɴ ᴠᴇʀs)
-    API_ID = int(getenv("API_ID", "13279715"))
-    API_HASH = getenv("API_HASH", "56e198053932ecf216af72a2ddffcd78")
-    EVENT_LOGS = int(getenv("EVENT_LOGS", "-1002139608040"))
+    API_ID = int(getenv("API_ID", "27323120"))
+    API_HASH = getenv("API_HASH", "8e82c0f9e36066f84ad663ab11ab0637")
+    EVENT_LOGS = int(getenv("EVENT_LOGS", "-1002288846111"))
     DATABASE_URL = getenv(
         "DATABASE_URL",
         "postgres://qszfsijv:y6sYqkEb8Z9lFGBmriG7AYjbSbgAJBVk@peanut.db.elephantsql.com/qszfsijv",
@@ -25,11 +25,11 @@ class Config(object):
     REDIS_URL = "redis://default:FyNzPZ045GV2JXidIlYVYWExT5d2PDfz@redis-19786.c279.us-central1-1.gce.cloud.redislabs.com:19786"  # redis.os
     MONGO_DB_URL = getenv(
         "MONGO_DB_URL",
-        "mongodb+srv://Obito:Obito@obito.uolt8k3.mongodb.net/?retryWrites=true&w=majority",
+        "mongodb+srv://Avon:Avon@avon.fstai.mongodb.net/?retryWrites=true&w=majority",
     )
     TOKEN = getenv("TOKEN", "6494077922:AAEeBBCclIvvhxw9zz_E1cxP96esJzbKZDk")
-    OWNER_USERNAME = getenv("OWNER_USERNAME", "King_Akaza_Shadow")
-    OWNER_ID = int(getenv("OWNER_ID", "7122227582"))
+    OWNER_USERNAME = getenv("OWNER_USERNAME", "Yash_747")
+    OWNER_ID = int(getenv("OWNER_ID", "6289029511"))
     SUPPORT_CHAT = getenv("SUPPORT_CHAT", "Friends_Zone_l")
 
     # ɴᴏᴛ ɪᴍᴘᴏʀᴛᴀɴᴛ ᴢᴏɴᴇ, ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴇᴅɪᴛ
