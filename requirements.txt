@@ -67,3 +67,4 @@ wget==3.2
 pydub
 pyfiglet
 qrcode
+spamwatch
