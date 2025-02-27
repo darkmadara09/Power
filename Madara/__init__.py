@@ -274,7 +274,6 @@ INFOPIC = True
 print("[Madara]: á´›á´‡ÊŸá´‡É¢Ê€á´€á´˜Êœ ÉªÉ´sá´›á´€ÊŸÊŸÉªÉ´É¢")
 telegraph = Telegraph()
 print("[Madara ]: á´›á´‡ÊŸá´‡É¢Ê€á´€á´˜Êœ á´€á´„á´„á´á´œÉ´á´› á´„Ê€á´‡á´€á´›ÉªÉ´É¢")
-telegraph.create_account(short_name="Madara")
 
 
 updater = tg.Updater(TOKEN, use_context=True)
