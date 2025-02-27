@@ -277,7 +277,7 @@ print("[Madara ]: á´›á´‡ÊŸá´‡É¢Ê€á´€á´˜Êœ á´€á�
 telegraph.create_account(short_name="Madara")
 
 
-updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
+updater = tg.Updater(TOKEN, use_context=True)
 
 
 print("[Madara ]: á´›á´‡ÊŸá´‡á´›Êœá´É´ á´„ÊŸÉªá´‡É´á´› sá´›á´€Ê€á´›ÉªÉ´É¢")
