@@ -276,7 +276,7 @@ telegraph = Telegraph()
 print("[Madara ]: á´›á´‡ÊŸá´‡É¢Ê€á´€á´˜Êœ á´€á´„á´„á´á´œÉ´á´› á´„Ê€á´‡á´€á´›ÉªÉ´É¢")
 
 
-updater = tg.Updater(TOKEN, use_context=True)
+updater = tg.Updater(TOKEN)
 
 
 print("[Madara ]: á´›á´‡ÊŸá´‡á´›Êœá´É´ á´„ÊŸÉªá´‡É´á´› sá´›á´€Ê€á´›ÉªÉ´É¢")
